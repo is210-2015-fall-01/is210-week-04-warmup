@@ -21,7 +21,6 @@ def know_what_i_mean(wink, numwink=2):
         >>> know_what_i_mean('5', 5)
         'Know what I mean? 55555, nudge nudge nudge nudge nudge'
     """
-        
     winks = (wink * numwink).strip()
     nudges = ('nudge ' * numwink).strip()
     retstr = 'Know what I mean? {}, {}'.format(winks, nudges)
