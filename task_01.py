@@ -20,7 +20,6 @@ def know_what_i_mean(wink, numwink=2):
 
         >>> know_what_i_mean('mein freund', 1)
         'Know what I mean? mein freund, nudge'
-        
     """
     winks = (wink * numwink).strip()
     nudges = ('nudge ' * numwink).strip()
