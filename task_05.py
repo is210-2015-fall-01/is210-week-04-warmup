@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 """Setting a default value in our function definition."""
 
-def defaults(my_required, my_optional = True):
+
+def defaults(my_required, my_optional=True):
     """Compares the two values  to see if they equal one another.
 
     Args:
