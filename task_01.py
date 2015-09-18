@@ -15,11 +15,10 @@ def know_what_i_mean(wink, numwink=2):
         the repeated argument of 'wink.'
 
     Examples:
-    
+
         >>> know_what_i_mean(winks)
         'Know what I mean? winkswinks, nudge nudge'
     """
-    
     winks = (wink * numwink).strip()
     nudges = ('nudge ' * numwink).strip()
     retstr = 'Know what I mean? {}, {}'.format(winks, nudges)
