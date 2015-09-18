@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """In this task, you'll be defining a function with three parameters."""
 
+
 def too_many_kittens(kittens, litterboxes, catfood):
     """Does some math and ensures we have enough supplies
 
