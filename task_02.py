@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 """This module does some pretty crazy math."""
 
-
 import hamlet
 
-POSITIONAL = hamlet.crazy_math(4, 1000, 8, 98)
+POSITIONAL = hamlet.crazy_math(4, 100000, 8, 98)
 
 print POSITIONAL
