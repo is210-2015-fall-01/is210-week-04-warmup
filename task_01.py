@@ -4,10 +4,10 @@
 
 
 def know_what_i_mean(wink, numwink=2):
-    """Repeats nudges and winks and returns a string.
+    """This function gets two inputs and returns a string and displays winks.
 
     Args:
-        wink (int): number of times to repeat the 'wink'
+        wink (mixed): this will get repeated
         numwick (int): number of times to repeat the 'nudge'
 
     Returns:
@@ -15,13 +15,12 @@ def know_what_i_mean(wink, numwink=2):
 
     Examples:
 
-        >>> know_what_i_mean(2, 5)
-        Know what I mean? wink wink nudge nudge nudge nudge nudge'
-
-        >>> know_what_i_mean(4, 3)
-        Know what I mean? wink wink wink wink nudge nudge nudge
+        >>> know_what_i_mean('Wow', 5)
+        'Know what I mean? wink wink nudge nudge nudge nudge nudge'
+        >>> know_what_i_mean('NO', 3)
+        'Know what I mean? NONONO, nudge nudge nudge'
     """
-    winks = ('wink '* wink).strip()
+    winks = (wink * numwink).strip()
     nudges = ('nudge ' * numwink).strip()
     retstr = 'Know what I mean? {}, {}'.format(winks, nudges)
     return retstr
