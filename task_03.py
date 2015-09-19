@@ -4,3 +4,4 @@
 
 
 import hamlet
+KEYWORD = hamlet.crazy_math(bananas=48, monkeys=84, hours=200000)
