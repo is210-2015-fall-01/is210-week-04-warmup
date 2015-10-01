@@ -4,3 +4,7 @@
 
 
 import hamlet
+
+KEYWORD = hamlet.crazy_math(84, 200000, bananas=48)
+
+print KEYWORD
